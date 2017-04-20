@@ -1,0 +1,13 @@
+*.iml
+.idea/*
+target/*
+src/main/resources/git.properties
+.classpath
+.project
+.settings/*
+.DS_Store
+db/*
+usage-sol42-generator-leveldb.dat/*
+
+# jenv version
+.java-version
