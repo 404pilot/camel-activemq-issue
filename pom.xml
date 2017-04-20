@@ -30,6 +30,12 @@
   </dependencyManagement>
 
   <dependencies>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+
     <!-- spring -->
     <dependency>
       <groupId>org.springframework</groupId>
@@ -105,29 +111,6 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
       <version>4.3.7.RELEASE</version>
-    </dependency>
-
-
-    <!-- logging -->
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-api</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-core</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-slf4j-impl</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-1.2-api</artifactId>
-      <scope>test</scope>
     </dependency>
 
   </dependencies>
